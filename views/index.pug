@@ -1,5 +1,207 @@
-extends layout
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+          type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/responsive.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./app.js"></script>
 
-block content
-  h1= title
-  p Welcome to #{title}
+    <title> Practise one</title>
+</head>
+<body>
+    <header class="header">
+    <div class="header-container container-fluid">
+        <nav class="navigation-bar">
+            <ul class="navigation-bar__list">
+                <li class="navigation-bar__item">
+                    <a href="index.html">
+                        <i class="fa-solid fa-home navigation-bar__icon"></i>
+                        خانه
+                    </a>
+                </li>
+                <li class="navigation-bar__item">
+                    <a href="gallery.html">
+                        <i class="fa-solid fa-images navigation-bar__icon"></i>
+                        گالری تصاویر
+                    </a>
+                </li>
+                <li class="navigation-bar__item">
+                    <a href="history.html">
+                        <i class="fa-solid fa-clock-rotate-left navigation-bar__icon"></i>
+                        تاریخچه
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-header">
+            <div class="main-header__title">
+                فرش ایران
+            </div>
+            <div class="main-header__description">
+                فرش ایرانی آینه تمام‌نمای فرهنگ، اصالت و هنر ایرانی است. این هنر اصیل طی اعصار پیشین با هنر دست بافندگان
+                و به‌وسیله فرهنگ ایرانی زنده نگاه داشته شده است.
+            </div>
+        </div>
+    </div>
+    </header>
+    <div id="main">
+    <div class="gallery-shortcut">
+        <div class="container">
+            <div class="gallery-shortcut__header">
+                <div class="gallery-shortcut__title">گالری تصاویر فرش ایران</div>
+                <a class="gallery-shortcut__more" href="gallery.html">مشاهده بیشتر</a>
+            </div>
+            <div class="gallery-shortcut__cards">
+                <div class="gallery-shortcut-card">
+                    <div class="gallery-shortcut-card__image">
+                        <img src="assets/gallery/pic-1.jpg" alt="#"/>
+                    </div>
+                </div>
+                <div class="gallery-shortcut-card">
+                    <div class="gallery-shortcut-card__image">
+                        <img src="assets/gallery/pic-2.jpg" alt="#"/>
+                    </div>
+                </div>
+                <div class="gallery-shortcut-card">
+                    <div class="gallery-shortcut-card__image">
+                        <img src="assets/gallery/pic-3.jpg" alt="#"/>
+                    </div>
+                </div>
+                <div class="gallery-shortcut-card">
+                    <div class="gallery-shortcut-card__image">
+                        <img src="assets/gallery/pic-4.jpg" alt="#"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main container">
+        <div id="articles" class="main-bar">
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+    <section class="cards container">
+        <div class="card">
+            <div class="card__image">
+                <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" class="attachment-large size-large wp-image-93" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+            </div>
+            <div class="card__text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__image">
+                <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-85-copy.jpg" class="attachment-large size-large wp-image-93 sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+            </div>
+            <div class="card__text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__image">
+                <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Amelia-Johannsen-wheel-throwing-at-137dgr-studio.jpg" class="attachment-large size-large wp-image-93 sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+            </div>
+            <div class="card__text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container pic__header">
+        <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none"><path d="M42.0122 26.5954C41.8932 26.3573 41.5955 26.2383 41.3574 26.1788C39.9884 26.1788 28.2026 25.7026 28.2026 12.012C28.2026 11.5953 27.8454 11.2382 27.4288 11.2382C27.0121 11.2382 26.655 11.5953 26.655 12.012C26.655 25.7026 14.8692 26.1788 13.5596 26.1788C13.381 26.1788 13.2025 26.2383 13.0834 26.3573C12.9644 26.4169 12.9049 26.5359 12.8453 26.5954C12.7263 26.8335 12.7263 27.1312 12.8453 27.3692C12.9644 27.6073 13.262 27.7859 13.5596 27.7859H13.6191C14.9882 27.7859 26.7145 28.2621 26.7145 41.9527C26.7145 42.3694 27.0716 42.7265 27.4883 42.7265C27.905 42.7265 28.2621 42.3694 28.2621 41.9527C28.2621 28.3216 39.9884 27.7859 41.3574 27.7859C41.6551 27.7859 41.8932 27.6073 42.0717 27.3692C42.1908 27.1312 42.1908 26.8335 42.0122 26.5954ZM27.4288 36.1193C25.7026 30.4645 21.4763 28.024 18.143 26.9526C21.4763 25.8811 25.7026 23.4407 27.4288 17.7858C29.155 23.4407 33.3812 25.8811 36.7146 26.9526C33.3812 28.024 29.155 30.4645 27.4288 36.1193ZM17.6073 11.1191C18.0239 11.1191 18.3811 10.762 18.3811 10.2858C18.3811 9.86912 18.0239 9.51197 17.6073 9.51197C16.893 9.51197 10.4644 9.27387 10.4644 1.77382C10.4644 1.35715 10.1072 1 9.69054 1C9.27387 1 8.91673 1.35715 8.91673 1.77382C8.91673 9.27387 2.48811 9.51197 1.77382 9.51197H1.71429C1.29762 9.5715 1 9.86912 1 10.2858C1 10.7025 1.35715 11.0596 1.77382 11.0596C2.54763 11.0596 8.91673 11.2977 8.91673 18.7978C8.91673 19.2144 9.27387 19.5716 9.69054 19.5716C10.0477 19.6311 10.4048 19.274 10.4048 18.8573C10.4048 11.3572 16.8335 11.1191 17.5477 11.1191H17.6073ZM9.63102 14.512C8.67863 12.2501 6.95243 11.0001 5.34527 10.2858C7.07147 9.57149 8.67863 8.20244 9.63102 6.05956C10.5834 8.32148 12.3096 9.57149 13.9168 10.2858C12.1906 11.0001 10.5834 12.3691 9.63102 14.512Z" fill="#FFCF2F" stroke="#FFCF2F"></path></svg>
+        <div class="pic__header__text">
+            گالری تصاویر
+        </div>
+    </div>
+
+    <div class="container pic">
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+        <img loading="lazy" decoding="async" width="۵00" height="300" src="https://democo4848.nocmdp.com/wp-content/uploads/2022/06/Untitled-1-copy.jpg" sizes="(max-width: 1024px) 100vw, 1024px">								</a>
+    </div>
+
+    <div class="footer">
+    <div class="contain">
+        <div class="col">
+            <h1>شرکت</h1>
+            <ul>
+            <li>درباره ما</li>
+            <li>اهداف</li>
+            <li>خدمات</li>
+            <li>شبکه های اجتماعی</li>
+            <li>خانه</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Products</h1>
+            <ul>
+            <li>درباره ما</li>
+            <li>اهداف</li>
+            <li>خدمات</li>
+            <li>شبکه های اجتماعی</li>
+            <li>خانه</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Accounts</h1>
+            <ul>
+            <li>درباره ما</li>
+            <li>اهداف</li>
+            <li>خدمات</li>
+            <li>شبکه های اجتماعی</li>
+            <li>خانه</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Resources</h1>
+            <ul>
+            <li>درباره ما</li>
+            <li>اهداف</li>
+            <li>خدمات</li>
+            <li>شبکه های اجتماعی</li>
+            <li>خانه</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Support</h1>
+            <ul>
+            <li>درباره ما</li>
+            <li>اهداف</li>
+            <li>خدمات</li>
+            <li>شبکه های اجتماعی</li>
+            <li>خانه</li>
+            </ul>
+        </div>
+        <div class="col social">
+            <h1>Social</h1>
+            <ul>
+            <li><i class="bi bi-telegram pad-2"></i></li>
+            <li><i class="bi bi-instagram pad-2"></i></li>
+            <li><i class="bi bi-twitter pad-2"></i></li>
+            <li><i class="bi bi-linkedin pad-2"></i></li>
+            <li><i class="bi bi-facebook pad-2"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+curl --location 'localhost:4545/users?offset=1&limit=3'
+curl --location 'localhost:4545/users/1'
+
+curl --location --request PUT 'localhost:4545/users' \
+--data-raw '{
+  "id": 1,
+  "email": "f@fu.cddom",
+  "username": "1qaz"
+}'
+
+curl --location 'localhost:4545/users' \
+--data-raw '{
+  "username": "sdfadsaf",
+  "email": "f@sfdasdf.fcasdfom",
+  "password": "1qasdfasdfaz"
+}'
